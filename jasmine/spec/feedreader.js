@@ -121,6 +121,7 @@ $(function () {
         beforeEach(function (done) {
 
             loadFeed(1, function () {
+                entries = $(".feed").html();
                 console.log(entries);
                 done();
             });
